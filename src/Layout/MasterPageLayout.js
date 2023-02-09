@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const MasterPageLayout = (props) => {
     return (
         <Fragment>
-            <div className="banner padding-tb-20px background-overlay" style={{backgroundImage: `url(/img/banner_1.jpg)`}}>
+            <div className="banner padding-tb-20px background-overlay" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/img/banner_1.jpg)`}}>
                 <div className="container">
                     {<Header />}
                     <div className="padding-tb-200px z-index-2 position-relative">
