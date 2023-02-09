@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/recipes/static/js/main.f5546181.js",
+    "main.js": "/recipes/static/js/main.80ac0f4e.js",
     "static/css/888.bf4e3439.chunk.css": "/recipes/static/css/888.bf4e3439.chunk.css",
-    "static/js/888.2c49ed54.chunk.js": "/recipes/static/js/888.2c49ed54.chunk.js",
+    "static/js/888.f56f699a.chunk.js": "/recipes/static/js/888.f56f699a.chunk.js",
     "static/css/924.bf4e3439.chunk.css": "/recipes/static/css/924.bf4e3439.chunk.css",
     "static/js/924.29157308.chunk.js": "/recipes/static/js/924.29157308.chunk.js",
-    "static/js/314.e25692fc.chunk.js": "/recipes/static/js/314.e25692fc.chunk.js",
+    "static/js/314.3bc372a2.chunk.js": "/recipes/static/js/314.3bc372a2.chunk.js",
     "static/js/542.54cffc45.chunk.js": "/recipes/static/js/542.54cffc45.chunk.js",
     "static/js/548.238846bf.chunk.js": "/recipes/static/js/548.238846bf.chunk.js",
     "static/js/922.6c33b5b3.chunk.js": "/recipes/static/js/922.6c33b5b3.chunk.js",
     "static/js/264.f94abe9b.chunk.js": "/recipes/static/js/264.f94abe9b.chunk.js",
-    "static/js/203.c22217b0.chunk.js": "/recipes/static/js/203.c22217b0.chunk.js",
+    "static/js/203.0f7e4765.chunk.js": "/recipes/static/js/203.0f7e4765.chunk.js",
     "static/js/337.17689906.chunk.js": "/recipes/static/js/337.17689906.chunk.js",
     "static/js/547.620411ed.chunk.js": "/recipes/static/js/547.620411ed.chunk.js",
     "static/js/244.10ec7dbc.chunk.js": "/recipes/static/js/244.10ec7dbc.chunk.js",
@@ -21,17 +21,17 @@
     "static/js/290.a5af6859.chunk.js": "/recipes/static/js/290.a5af6859.chunk.js",
     "static/js/773.5e9b96f7.chunk.js": "/recipes/static/js/773.5e9b96f7.chunk.js",
     "index.html": "/recipes/index.html",
-    "main.f5546181.js.map": "/recipes/static/js/main.f5546181.js.map",
+    "main.80ac0f4e.js.map": "/recipes/static/js/main.80ac0f4e.js.map",
     "888.bf4e3439.chunk.css.map": "/recipes/static/css/888.bf4e3439.chunk.css.map",
-    "888.2c49ed54.chunk.js.map": "/recipes/static/js/888.2c49ed54.chunk.js.map",
+    "888.f56f699a.chunk.js.map": "/recipes/static/js/888.f56f699a.chunk.js.map",
     "924.bf4e3439.chunk.css.map": "/recipes/static/css/924.bf4e3439.chunk.css.map",
     "924.29157308.chunk.js.map": "/recipes/static/js/924.29157308.chunk.js.map",
-    "314.e25692fc.chunk.js.map": "/recipes/static/js/314.e25692fc.chunk.js.map",
+    "314.3bc372a2.chunk.js.map": "/recipes/static/js/314.3bc372a2.chunk.js.map",
     "542.54cffc45.chunk.js.map": "/recipes/static/js/542.54cffc45.chunk.js.map",
     "548.238846bf.chunk.js.map": "/recipes/static/js/548.238846bf.chunk.js.map",
     "922.6c33b5b3.chunk.js.map": "/recipes/static/js/922.6c33b5b3.chunk.js.map",
     "264.f94abe9b.chunk.js.map": "/recipes/static/js/264.f94abe9b.chunk.js.map",
-    "203.c22217b0.chunk.js.map": "/recipes/static/js/203.c22217b0.chunk.js.map",
+    "203.0f7e4765.chunk.js.map": "/recipes/static/js/203.0f7e4765.chunk.js.map",
     "337.17689906.chunk.js.map": "/recipes/static/js/337.17689906.chunk.js.map",
     "547.620411ed.chunk.js.map": "/recipes/static/js/547.620411ed.chunk.js.map",
     "244.10ec7dbc.chunk.js.map": "/recipes/static/js/244.10ec7dbc.chunk.js.map",
@@ -43,6 +43,6 @@
     "773.5e9b96f7.chunk.js.map": "/recipes/static/js/773.5e9b96f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f5546181.js"
+    "static/js/main.80ac0f4e.js"
   ]
 }
