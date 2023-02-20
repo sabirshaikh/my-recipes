@@ -81,7 +81,7 @@ const AddRecipe = () => {
     const ingredients = ingredientList.map((data, index) => {
         return (
             <div key={'ingredient' + index} className="col-md-8 margin-bottom-20px">
-                <label>Ingredient {index + 1} {data.ingredient}</label>
+                <label>Ingredient {index + 1} {data.ingredient}<span className="text-main-color">*</span></label>
                 <div className="row">
                     <div className="col-md-8">
                         <input type="text" 
@@ -109,7 +109,7 @@ const AddRecipe = () => {
     const steps = stepList.map((data, index) => {
         return (
             <div key={'step' + index} className="col-md-8 margin-bottom-20px">
-                <label>Step {index + 1} {data.step}</label>
+                <label>Step {index + 1} {data.step}<span className="text-main-color">*</span></label>
                 <div className="row">
                     <div className="col-md-8">
                     <input type="text" 
@@ -137,7 +137,7 @@ const AddRecipe = () => {
     const nutrients = nutrientList.map((data, index) => {
         return (
             <div key={'nutrient' + index} className="col-md-8 margin-bottom-20px">
-                <label>Nutrient {index + 1} {data.nutrient}</label>
+                <label>Nutrient {index + 1} {data.nutrient}<span className="text-main-color">*</span></label>
                 <div className="row">
                     <div className="col-md-8">
                     <input type="text" 
@@ -215,7 +215,7 @@ const AddRecipe = () => {
                             <div className="form-group margin-bottom-20px">
                                 <div className="row">
                                     <div className="col-md-6">
-                                    <label><i className="far fa-list-alt margin-right-10px"></i> Recipe Title</label>
+                                    <label><i className="far fa-list-alt margin-right-10px"></i> Recipe Title <span className="text-main-color">*</span></label>
                                         <input type="text" className={`form-control form-control-sm ${errors.recipeTitle && 'inValid'}`} placeholder="Recipe Title" 
                                             {...register("recipeTitle", 
                                             { required: true,  minLength: 3})}
@@ -225,7 +225,7 @@ const AddRecipe = () => {
                                     </div>
                                     <div className="col-md-6">
                                         <div className="form-group margin-bottom-20px">
-                                        <label><i className="far fa-images margin-right-10px"></i> Image URL</label>
+                                        <label><i className="far fa-images margin-right-10px"></i> Image URL<span className="text-main-color">*</span></label>
                                             <input type="text" className={`form-control form-control-sm ${errors.recipeImage && 'inValid'}`} placeholder="http://www./" 
                                             {...register("recipeImage", 
                                             { required: true,  minLength: 3})}
@@ -239,7 +239,7 @@ const AddRecipe = () => {
                             <div className="form-group margin-bottom-20px">
                                 <div className="row">
                                     <div className="col-md-4">
-                                        <label><i className="far fa-folder-open margin-right-10px"></i> Category</label>
+                                        <label><i className="far fa-folder-open margin-right-10px"></i> Category<span className="text-main-color">*</span></label>
                                         <select className="form-control form-control-sm" {...register("recipeCategory")}>
                                             <option>Fish</option>
                                             <option>Cocktails</option>
@@ -251,7 +251,7 @@ const AddRecipe = () => {
                                     </div>
                                     <div className="col-md-4">
                                         <div className="form-group margin-bottom-20px">
-                                            <label>Cuisine Type</label>
+                                            <label>Cuisine Type<span className="text-main-color">*</span></label>
                                             <input type="text" className={`form-control form-control-sm ${errors.recipeCuisine && 'inValid'}`}
                                                 {...register("recipeCuisine", 
 							                    { required: true,  minLength: 3})}
@@ -262,7 +262,7 @@ const AddRecipe = () => {
                                     </div>
                                     <div className="col-md-4">
                                         <div className="form-group margin-bottom-20px">
-                                            <label>Meal Type</label>
+                                            <label>Meal Type<span className="text-main-color">*</span></label>
                                             <input type="text" className={`form-control form-control-sm ${errors.recipeMeal && 'inValid'}`}
                                                 {...register("recipeMeal", 
 							                    { required: true,  minLength: 3})}
@@ -278,7 +278,7 @@ const AddRecipe = () => {
                                 <div className="row">
                                     <div className="col-md-4">
                                         <div className="form-group margin-bottom-20px">
-                                            <label>Diet Type</label>
+                                            <label>Diet Type<span className="text-main-color">*</span></label>
                                             <input type="text" className={`form-control form-control-sm ${errors.recipeDiet && 'inValid'}`}
                                                 {...register("recipeDiet", 
 							                    { required: true,  minLength: 3})}
@@ -290,7 +290,7 @@ const AddRecipe = () => {
 
                                     <div className="col-md-4">
                                         <div className="form-group margin-bottom-20px">
-                                            <label>Total Weight (g)</label>
+                                            <label>Total Weight (g)<span className="text-main-color">*</span></label>
                                             <input type="text" className={`form-control form-control-sm ${errors.recipeWeight && 'inValid'}`}
                                                 {...register("recipeWeight", 
 							                    { required: true, pattern: /^\d*$/})}
@@ -301,7 +301,7 @@ const AddRecipe = () => {
                                     </div>
                                     <div className="col-md-4">
                                         <div className="form-group margin-bottom-20px">
-                                            <label>Total Calories (Kcal)</label>
+                                            <label>Total Calories (Kcal)<span className="text-main-color">*</span></label>
                                             <input type="text" className={`form-control form-control-sm ${errors.recipeCalories && 'inValid'}`}
                                                 {...register("recipeCalories", 
 							                    { required: true, pattern: /^\d*$/})}
@@ -317,7 +317,7 @@ const AddRecipe = () => {
                                 <div className="row">
                                     <div className="col-md-4">
                                         <div className="form-group margin-bottom-20px">
-                                            <label><i className="fas fa-users"></i> Servings</label>
+                                            <label><i className="fas fa-users"></i> Servings<span className="text-main-color">*</span></label>
                                             <input type="text" className={`form-control form-control-sm ${errors.recipeServings && 'inValid'}`}
                                                 {...register("recipeServings", 
 							                    { required: true, pattern: /^\d*$/})}

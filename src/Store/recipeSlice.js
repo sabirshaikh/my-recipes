@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const recipeState = {
     recipes: [],
     recipeCategory: [
-        {name: '--Fish', image: '/img/cat-1.jpg'},
+        {name: 'Fish', image: '/img/cat-1.jpg'},
         {name: 'Cocktails', image: '/img/cat-2.jpg'},
         {name: 'Eggs', image: '/img/cat-3.jpg'},
         {name: 'Salad', image: '/img/cat-4.jpg'},

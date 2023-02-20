@@ -5,6 +5,7 @@ import axios from "axios";
 import { Helmet } from "react-helmet";
 import { useSelector, useDispatch } from "react-redux";
 import {layoutActions } from "../Store";
+import SearchRecipe from "../components/SearchRecipe/SearchRecipe";
 const RecipeDetails = () => {
     const dispatch = useDispatch();
     const params = useParams();
@@ -156,33 +157,7 @@ const RecipeDetails = () => {
                     </div>
 
                     <div className="col-lg-4">
-                        <div className="listing-search box-shadow background-main-color padding-30px margin-bottom-30px">
-                            <form className="row no-gutters">
-                                <div className="col-md-12">
-                                    <div className="keywords">
-                                        <input className="listing-form first border-radius-10 margin-bottom-10px" type="text" placeholder="Keywords..." value="" />
-                                    </div>
-                                </div>
-                                <div className="col-md-12">
-                                    <div className="categories dropdown">
-                                        <a className="listing-form d-block text-nowrap border-radius-10 margin-bottom-10px" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</a>
-                                        <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                            <button className="dropdown-item text-up-small" type="button">Fish</button>
-                                            <button className="dropdown-item text-up-small" type="button">Cocktails</button>
-                                            <button className="dropdown-item text-up-small" type="button">Salads</button>
-                                            <button className="dropdown-item text-up-small" type="button">Asian</button>
-                                            <button className="dropdown-item text-up-small" type="button">Fish</button>
-                                            <button className="dropdown-item text-up-small" type="button">Cocktails</button>
-                                            <button className="dropdown-item text-up-small" type="button">Salads</button>
-                                            <button className="dropdown-item text-up-small" type="button">Asian</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-12">
-                                    <a className="listing-bottom border-radius-10 background-second-color box-shadow" href="#">Search Now</a>
-                                </div>
-                            </form>
-                        </div>
+                        <SearchRecipe/>
 
                         <div className="row margin-tb-45px">
                             {Category}
